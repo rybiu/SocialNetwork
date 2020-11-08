@@ -1,0 +1,126 @@
+body {
+	background-color: #f1f1f1; 
+}
+.btAction a {
+	text-decoration: none;
+	color: #333;
+}
+.btAction:hover a {
+	color: #ffffff;
+}
+#sidebar {
+	background-color: #fff;
+	height: 100vh;
+	position: fixed;
+	display: inline-block;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+.site-header {
+	margin: 5em auto;
+}
+.site-header .site-title a {
+	color: #333 !important;
+	font-size: 27px;
+	font-weight: bold;
+} 
+.site-header .site-description {
+	color: #8a8a8a;
+}
+.nav-menu {
+	list-style-type: none;
+	padding: 0;
+}
+.nav-menu li {
+	height: 4em;
+	border-top: 1px #e8e8e8 solid;
+	text-align: center;
+}
+.nav-menu li:hover {
+	background-color: #f1f1f1;
+}
+.nav-menu li:last-child {
+	border-bottom: 1px #e8e8e8 solid;	
+}
+.nav-menu li a {
+	color: #333 !important;
+	line-height: 4em;
+}
+.nav-menu li a:hover {
+	text-decoration: none;
+}
+#content {
+	margin-left: 25%;
+	display: inline-block;
+}
+.content-header {
+	background-color: #ffffff;
+	padding: 1.5em 5em;
+	margin: 5em;
+	border-left: 5px #333 solid;
+}
+.content-part {
+	background-color: #ffffff;
+	padding: 5em;
+	margin: 5em;
+}
+.content-part .entry-header {
+	margin-bottom: 3em;
+}
+.content-part > p {
+	font-size: 19px;
+	margin-bottom: 3em;
+	text-align: justify;
+}
+.content-part img {
+    display: block;
+    width: 100%;
+    margin-bottom: 3em;	
+}
+.comment-item {
+	border-top: 1px #e8e8e8 solid;
+	padding: 1em 0;
+}
+.comment-item:last-child {
+	border-bottom: 1px #e8e8e8 solid;
+}
+.comment-item span {
+	float: right;
+}
+.comment-item .comment-description {
+	margin: 0 0 0 3em;
+	padding: .5em 0 0 0;
+	text-align: justify;
+}
+.content-part-table {
+	background-color: #ffffff;
+	margin: 5em;
+}
+.content-part-table th {
+	text-align: center;
+}
+.content-part-table td {
+	text-align: justify;
+}
+.content-part-table img {
+	max-width: 8em;
+}
+
+.notification-items {
+	padding: 1em 2em;
+	margin-bottom: .5em;
+	background-color: #f1f1f1;
+	color: #000000;
+}
+.notification-items:hover {
+	background-color: #e8e8e8;
+	color: #000000;
+	text-decoration: none;
+}
+.notification-items:last-child {
+	margin-bottom: 0;
+}
+.notification-items p {
+	margin-bottom: 0;
+	text-align: justify;
+}
