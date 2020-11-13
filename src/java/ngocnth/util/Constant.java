@@ -13,8 +13,8 @@ public class Constant {
     
     public static final String UPLOAD_DIR = "uploads";
     protected static final String MAIL_SENDERNAME = "Social Network";
-    protected static final String MAIL_USERNAME = "cutelove235@gmail.com";
-    public static final String MAIL_PASSWORD = "01638903911**";
+    protected static final String MAIL_USERNAME = "YOUR-EMAIL";
+    public static final String MAIL_PASSWORD = "YOUR-PASSWORD";
     public static final int PAGING_SIZE = 20;
     public static final boolean EMOTION_LIKE = true;
     public static final boolean EMOTION_DISLIKE = false;
